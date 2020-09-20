@@ -1,0 +1,42 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home__name {
+  font-size: 5rem;
+  color: var(--primary-light);
+  margin-bottom: 20px;
+}
+
+.home__field {
+  font-size: 2.5rem;
+  color: var(--primary-light);
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.skills {
+  font-size: 3.5rem;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skill a:link,
+.skill a:visited {
+  text-decoration: none;
+  color: var(--primary-light);
+  transition: all 0.5s ease;
+}
+
+.skill a:hover {
+  color: var(--primary);
+}
