@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import './about.styles.css';
 
 const AboutSection = (props) => {
@@ -9,7 +9,5 @@ const AboutSection = (props) => {
     </div>
   );
 };
-
-AboutSection.propTypes = {};
 
 export default AboutSection;

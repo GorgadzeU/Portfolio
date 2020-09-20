@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import './nav.styles.css';
 
 import { Link } from 'react-scroll';
@@ -48,7 +48,5 @@ const Nav = (props) => {
     </div>
   );
 };
-
-Nav.propTypes = {};
 
 export default Nav;

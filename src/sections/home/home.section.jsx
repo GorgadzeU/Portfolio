@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import './home.styles.css';
 
 import { AiFillGithub } from 'react-icons/ai';
@@ -40,7 +40,5 @@ const HomeSection = (props) => {
     </div>
   );
 };
-
-HomeSection.propTypes = {};
 
 export default HomeSection;

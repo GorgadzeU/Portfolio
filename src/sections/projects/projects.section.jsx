@@ -1,15 +1,26 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './projects.styles.css';
+
+import IMG from '../../assets/web.jpg';
+
+import Card from '../../components/card/card.component';
 
 const ProjectsSection = (props) => {
   return (
     <div className='projects'>
-      <h1>Projects</h1>
+      <h1 className='projects__title'>Projects</h1>
+      <div className='cards'>
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+        <Card img={IMG} title={'test project'} />
+      </div>
     </div>
   );
 };
-
-ProjectsSection.propTypes = {};
 
 export default ProjectsSection;

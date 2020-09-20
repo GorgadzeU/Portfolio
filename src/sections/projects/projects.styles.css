@@ -1,3 +1,19 @@
 .projects {
   min-height: 100vh;
 }
+
+.projects__title {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  color: var(--primary-light);
+  font-size: 4rem;
+  width: 200px;
+  border-bottom: 1px solid var(--primary);
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 250px);
+  grid-gap: 15px;
+}
